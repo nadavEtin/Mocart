@@ -1,0 +1,6 @@
+Code design:
+The code is designed to be modular and have it's different components separated. The game director initiates the process. Most communication is done via events and goes through the EventBus which is the only singleton.
+UI is handled by the UIManager and is separate from the "business logic". Interfaces are used instead of concrete types where appropriate, such as IItemShelf, IItem, etc.
+
+Project setup: unlike most projects, I don't keep all scripts/prefabs/etc in a single folder. Instead all assets related to a specific feature are located in the same folder.
+This makes it easier to find what I'm looking for, in my opinion.

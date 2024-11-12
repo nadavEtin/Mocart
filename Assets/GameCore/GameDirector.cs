@@ -7,13 +7,7 @@ namespace GameCore
 {
     public class GameDirector : MonoBehaviour
     {
-        private readonly EventBus _eventBus;
         private AssetRefs _assetRefs;
-
-        public GameDirector(EventBus bus)
-        {
-            _eventBus = bus;
-        }
 
         private void Awake()
         {

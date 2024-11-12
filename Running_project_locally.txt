@@ -1,0 +1,6 @@
+To run the project locally:
+1. open a terminal window inside the root project folder, MocartHA
+2. start a local server with Python: 
+python -m http.server 8000 - python version 3+
+python -m SimpleHTTPServer 8000 - python version 2
+3. open a browser and go to this address: http://localhost:8000
